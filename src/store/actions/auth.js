@@ -35,7 +35,7 @@ export const autoLogout = (time) => dispatch => {
     setTimeout(() => {
       dispatch(logout())
       
-    }, time * 1000/60)
+    }, time * 1000)
   }
 
 
